@@ -56,8 +56,13 @@ body {
     padding-top: 10px;
   }
   .leftside p {
-    text-align: left;
-    padding: 5px;
+    
+    padding-left: 25px;
+  }
+
+  .asukohateksti_pilt{
+    width: 20%;
+    height: 20%;
   }
   .rightside p{
     text-align: right;
@@ -87,6 +92,7 @@ body {
     padding: 12px 20px;
     border: none;
     cursor: pointer;
+    border-radius: 5px;
   }
   
   /* When moving the mouse over the submit button, add a darker green color */
@@ -99,4 +105,8 @@ body {
     border-radius: 5px;
     padding: 20px;
     width: 50%;
+  }
+
+  .asukohapilt{
+    border-radius: 50%;
   }

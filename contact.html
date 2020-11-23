@@ -22,14 +22,15 @@
               <tr>
                 <td>
                   <div class="leftside">
-                    <p>Asukoht: Tartu</p>
-                    <p>Telefon: 55555555</p>
-                    <p>Email: info@lauameister.ee</p>
+                      <p>Asukoht: Tartu</p>
+                      <p>Telefon: 55555555</p>
+                      <p>Email: info@lauameister.ee</p>  
                   </div>
                 </td>
                   <td>
                     <div class="rightside">
-                      <p>Holder</p>
+                      <p>Holder DELETE THIS</p>
+
 
                     </div>
                   
@@ -37,9 +38,10 @@
               </tr>
               <tr>
                 <td>
-                  <div class="contactform">
-                    <form action="action_page.php">
                   
+                  <div class="contactform">
+                    <form>
+                      <b>KIRJUTAGE MEILE<br><br></b>
                       <label for="name">Täisnimi</label>
                       <input type="text" id="name" name="name" placeholder="Sisesta oma nimi...">
                   
@@ -48,11 +50,16 @@
                   
                   
                       <label for="subject">Teema</label>
-                      <textarea id="subject" name="subject" placeholder="Kirjuta siia..." style="height:200px"></textarea>
+                      <textarea id="subject" name="subject" placeholder="Kirjuta siia oma küsimused" style="height:200px"></textarea>
                   
-                      <input type="submit" value="Saada">
-                  
+                      <input type="submit" value="Saada" onclick="submitpressed()">
+                      
                     </form>
+                    <script>
+                      function submitpressed() {
+                        alert("Pöördumine saadetud");
+                      }
+                      </script>
                   </div>
                 </td>
                 <td>
