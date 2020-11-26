@@ -2,22 +2,28 @@
 <html>
   <head>
       <link rel="stylesheet" href="style.css">
-      <meta name="viewport" content="width=device-width, initial-scale=1">
-
+      <meta name="viewport"
+            content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+      <meta http-equiv="X-UA-Compatible" content="ie=edge">
+      <meta charset="UTF-8">
     </head>
     <body>
-        <div class="header">
-            <a href="./index.html" class="logo">LauaMeister</a>
-            <div class="header-right">
-              <a class="active" href="./index.html">Kodu</a>
-              <a href="#contact">Kontakt</a>
-              <a href="#about">Meist</a>
-              <fieldset>
-                <a href="#otsi">Otsi lehelt...</a>
-              </fieldset>
+      <header>
+        <div class="main-container">
+            <div id="branding">
+                <a href="index.html"><img src="./images/Asset%202Visiit%20AP.png" alt="logo"></a>
+
             </div>
-          </div>
-          <div class="content">
+            <nav>
+                <ul>
+                    <li><a href="about.html">Ettevõttest</a></li>
+                    <li><a href="contact.html">kontakt</a></li>
+                    <li><a href="services.html">Hinnakiri</a></li>
+                </ul>
+            </nav>
+        </div>
+      </header>
+      <div class="content">
             <table>
               <tr>
                 <td>
@@ -27,14 +33,14 @@
                       <p>Email: info@lauameister.ee</p>  
                   </div>
                 </td>
-                  <td>
-                    <div class="rightside">
-                      <p>Holder DELETE THIS</p>
+                <td>
+                  <div class="rightside">
+                    <p>Holder DELETE THIS</p>
 
 
-                    </div>
-                  
-                  </td>
+                  </div>
+                
+                </td>
               </tr>
               <tr>
                 <td>
@@ -50,7 +56,7 @@
                   
                   
                       <label for="subject">Teema</label>
-                      <textarea id="subject" name="subject" placeholder="Kirjuta siia oma küsimused" style="height:200px"></textarea>
+                      <textarea id="subject" name="subject" placeholder="Kirjuta siia oma sõnum" style="height:200px"></textarea>
                   
                       <input type="submit" value="Saada" onclick="submitpressed()">
                       
@@ -71,6 +77,8 @@
               </tr>
             </table>
             
-          </div>
-         
+      </div>
+      <footer id="main-footer">
+        <p>Lauameister, Copyright &copy; 2020</p>
+      </footer>
     </body>
