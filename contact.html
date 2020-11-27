@@ -26,27 +26,18 @@
       <div class="content">
             <table>
               <tr>
-                <td>
                   <div class="leftside">
-                      <p>Asukoht: Tartu</p>
-                      <p>Telefon: 55555555</p>
-                      <p>Email: info@lauameister.ee</p>  
+                      <p>📌Asukoht: Tartu</p>
+                      <p>☎Telefon: 55555555</p>
+                      <p>✉Email: info@lauameister.ee</p>
                   </div>
-                </td>
-                <td>
-                  <div class="rightside">
-                    <p>Holder DELETE THIS</p>
-
-
-                  </div>
-                
                 </td>
               </tr>
               <tr>
                 <td>
                   
                   <div class="contactform">
-                    <form>
+                    <form name="contactform_data">
                       <b>KIRJUTAGE MEILE<br><br></b>
                       <label for="name">Täisnimi</label>
                       <input type="text" id="name" name="name" placeholder="Sisesta oma nimi...">
@@ -63,7 +54,18 @@
                     </form>
                     <script>
                       function submitpressed() {
-                        alert("Pöördumine saadetud");
+                        /* https://stackoverflow.com/questions/3547035/javascript-getting-html-form-values*/
+                        var x = document.getElementById("email").value; 
+                
+                        /*https://stackoverflow.com/questions/4444477/how-to-tell-if-a-string-contains-a-certain-character-in-javascript*/
+                        if (x.indexOf("@") == -1)
+                          {
+                            alert("Vale emaili formaat");
+                          }
+                        else {
+                          alert("Pöördumine saadetud");
+                        }
+                        
                       }
                       </script>
                   </div>
