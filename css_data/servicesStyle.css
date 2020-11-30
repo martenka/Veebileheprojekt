@@ -6,6 +6,7 @@
     width: auto;
 
 }
+
 .contact{
     text-align: left;
     border-radius: 20px;
@@ -39,7 +40,7 @@
     text-align: center;
 }
 .hinnakiri img{
-    float:right;
-    padding-right: 500px;
+    float:top;
+    padding-right: 400px;
     width: 400px;
 }

@@ -13,6 +13,12 @@ ul{
     margin: 0;
     padding: 0;
 }
+#branding{
+    float: left;
+}
+#branding img{
+    height: 100px;
+}
 header{
     background: olive;
     color: #fff;
@@ -47,6 +53,7 @@ header a:hover{
     margin-top: 2rem;
     background: olive;
     text-align: center;
+
 }
 @media (max-width: 768px){
     header #branding,

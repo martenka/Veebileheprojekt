@@ -12,7 +12,7 @@
   .about-section {
     padding: 100px;
     text-align: center;
-    background-image: url("latid.jpg");
+    background-image: url("/images/latid.jpg");
     background-color: #cccccc;
     color: white;
   }
