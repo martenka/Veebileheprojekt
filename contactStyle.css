@@ -1,0 +1,49 @@
+
+.leftside{
+    padding-top: 10px;
+  }
+  .leftside p {
+    text-align: left;
+    padding-left: 20px;
+  }
+
+  .asukohapilt{
+    vertical-align: top;
+    border-radius: 40%;
+  }
+  
+  input[type=text], select, textarea {
+    align-content: left;
+    width: 100%; 
+    padding: 12px;  
+    border: 1px solid #ccc; 
+    border-radius: 4px; 
+    box-sizing: border-box; 
+    margin-top: 6px; 
+    margin-bottom: 16px; 
+    resize: vertical 
+  }
+  
+  
+  input[type=submit] {
+    background-color: #4CAF50;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    cursor: pointer;
+  }
+  
+  
+  input[type=submit]:hover {
+    background-color: #45a049;
+  }
+  
+  .contactform {
+    border-radius: 5px;
+    padding: 20px;
+    width: 50%;
+  }
+  
+  #kontaktiinfo {
+      text-align: left;
+  }

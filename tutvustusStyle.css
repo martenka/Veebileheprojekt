@@ -1,0 +1,19 @@
+.column {
+    float: left;
+    height: 33.3%;
+    width: 33.3%;
+    margin-bottom: 16px;
+    padding: 0 8px;
+  }
+  .card {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.404);
+    margin: 8px;
+  }
+  .about-section {
+    padding: 100px;
+    text-align: center;
+    background-image: url("latid.jpg");
+    background-color: #cccccc;
+    color: white;
+  }
+  

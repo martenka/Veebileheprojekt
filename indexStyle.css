@@ -1,0 +1,55 @@
+#branding{
+    float: left;
+}
+#branding img{
+    height: 100px;
+}
+.button{
+    background-color: #333;
+    color: white;
+    padding: 10px 15px;
+}
+#showcase{
+    min-height:400px;
+    background:url("./images/DSC_1721.jpg") no-repeat -600px -800px;
+    color: white;
+    text-align: center;
+    padding-top: 160px;
+}
+#showcase h1{
+    margin-top: 50px;
+    line-height: 1.1em;
+    font-size: 55px;
+    margin-bottom: 10px;
+}
+#newsletter{
+    padding: 15px;
+    color: #fff;
+    background: olive;
+}
+#newsletter h1{
+    float: left;
+}
+#newsletter form{
+    float: right;
+    margin-top: 20px
+}
+
+#newsletter input[type="email"]{
+    padding: 4px;
+    height: 25px;
+    width: 350px
+}
+#boxes{
+    margin-top: 2rem;
+}
+#boxes .box img{
+    width: 150px;
+}
+#boxes .box{
+    float: left;
+    width: 30%;
+    text-align: center;
+
+    padding: 0 1rem;
+}

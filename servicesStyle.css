@@ -1,0 +1,45 @@
+.clr{
+    clear: both;
+
+}
+.container{
+    width: auto;
+
+}
+.contact{
+    text-align: left;
+    border-radius: 20px;
+    padding: 10px;
+}
+.contact .form-group{
+    padding-bottom: 15px;
+}
+.contact label{
+    display:block;
+}
+.contact input[type="text"], .contact textarea{
+    font: normal small sans-serif;
+    padding: 8px;
+    width: 80%;
+}
+.contact h3{
+
+    text-align: center;
+}
+.floating-1{
+    float:left;
+    width: 50%;
+    border:1px solid #ccc ;
+    box-sizing: border-box;
+}
+.hinnakiri{
+    margin-top: 2rem;
+}
+.hinnakiri h1{
+    text-align: center;
+}
+.hinnakiri img{
+    float:right;
+    padding-right: 500px;
+    width: 400px;
+}
